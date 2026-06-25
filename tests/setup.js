@@ -1,0 +1,9 @@
+process.env.NODE_ENV = 'test';
+process.env.JWT_SECRET = 'test_jwt_secret_key_for_unit_tests';
+process.env.JWT_REFRESH_SECRET = 'test_refresh_secret_key_for_unit_tests';
+process.env.JWT_ACCESS_EXPIRES_IN = '15m';
+process.env.JWT_REFRESH_EXPIRES_IN = '7d';
+process.env.ALLOWED_ORIGINS = 'http://localhost:3000,http://localhost:5173';
+process.env.RATE_LIMIT_WINDOW_MS = '900000';
+process.env.RATE_LIMIT_MAX_REQUESTS = '100';
+process.env.LOGIN_RATE_LIMIT_MAX = '5';

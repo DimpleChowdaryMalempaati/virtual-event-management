@@ -1,0 +1,35 @@
+{
+  "name": "virtual-event-management",
+  "version": "1.0.0",
+  "description": "Backend API for virtual event management with auth, events CRUD, and registration",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --runInBand --forceExit"
+  },
+  "keywords": [
+    "express",
+    "events",
+    "jwt",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.5.2",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.2.2"
+  }
+}
